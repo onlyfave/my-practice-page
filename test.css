@@ -1,0 +1,142 @@
+body {
+  text-align: center;
+}
+header {
+  text-align: center;
+  background-image: url(pexels-photo-1687341.jpeg);
+  background-size: cover;
+  color: white;
+}
+
+header > h1 {
+  font-size: 35px;
+  padding: 50px;
+}
+
+nav > ul > li {
+  list-style: none;
+  display: inline-block;
+  margin: 25px;
+}
+
+header > p.para {
+  font-size: 50px;
+  font-weight: 500;
+}
+header > p > span {
+  font-weight: bold;
+}
+
+header > button {
+  padding: 15px 25px;
+  margin-bottom: 60px;
+  border-radius: 40px;
+  color: white;
+  background-color: rgb(33, 139, 139);
+}
+header > button:hover {
+  transition: 5ms;
+  background-color: azure;
+  color: rgb(6, 44, 31);
+  cursor: pointer;
+}
+header > button > a {
+  text-decoration: none;
+  color: white;
+}
+header > button > a:hover {
+  color: rgb(31, 78, 62);
+}
+div.outline {
+  margin: auto;
+  padding: 100px;
+}
+.material-symbols-outlined {
+  color: rgb(57, 216, 163);
+}
+
+div.title {
+  border-bottom: 1px solid rgb(206, 202, 202);
+}
+section.first {
+  text-align: center;
+  background-color: rgb(229, 234, 238);
+  background-size: cover;
+  height: 60vh;
+}
+section > div.content {
+  padding: 3rem;
+  display: flex;
+}
+section.second {
+  display: flex;
+  padding: 60px;
+  justify-content: space-around;
+}
+.btn {
+  color: white;
+  padding: 15px;
+  font-size: 17px;
+  background-color: rgb(62, 163, 130);
+  border: 1px solid white;
+  border-radius: 30px;
+}
+section.third {
+  background-color: rgb(229, 234, 238);
+  padding: 200px;
+}
+button {
+  color: white;
+  padding: 15px;
+  font-size: 17px;
+  background-color: rgb(216, 214, 214);
+  border: 1px solid rgb(230, 227, 227);
+  border-radius: 30px;
+}
+div.head {
+  border-bottom: 1px solid;
+  border-color: rgb(206, 202, 202);
+}
+section.fourth {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px;
+}
+div > a {
+  color: rgb(106, 180, 155);
+  text-decoration: none;
+  font-size: 20px;
+}
+section.fifth {
+  background-color: rgb(229, 234, 238);
+  display: flex;
+  justify-content: space-around;
+  padding: 150px;
+}
+
+.fifth > div > h2 {
+  font-size: 35px;
+  justify-content: baseline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-bottom: 1px solid rgb(211, 206, 206);
+  padding: 15px;
+}
+.fifth > div > h2 > p {
+  justify-content: center;
+}
+section.sixth {
+  display: flex;
+  justify-content: space-around;
+}
+section.seventh {
+  background-color: rgb(92, 192, 157);
+  padding: 100px;
+}
+.seventh > ul > li {
+  list-style: none;
+}
+footer {
+  padding: 15px;
+  color: rgb(168, 168, 168);
+  font-size: larger;
+}
